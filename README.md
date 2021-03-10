@@ -1,2 +1,2 @@
-# jules-profile
+# Julie Luu
 Creating an online profile page
