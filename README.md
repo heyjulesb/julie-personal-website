@@ -1,2 +1,2 @@
-# Julie Luu
-Creating an online profile page
+# Hi there 👋
+My personal website using GitHub Pages and Jekyll.
