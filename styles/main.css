@@ -6,10 +6,12 @@
 html {
 /* 1rem = 10px */
   font-size: 62.5%;
+  height: 100%
 }
 
 body {
   font-size: 2rem;
+  font-family: 'Raleway';
 }
 
 /* Navigation Bar Styling */
@@ -51,26 +53,40 @@ body {
 .mainHeader {
   text-align: center; 
   color: black;
-  font-family: Raleway;
-  font-size: 5rem;
-  padding: 40px 0px 20px;
+  font-family: 'Raleway';
+  font-size: 5.7rem;
+  padding: 40px 0px 15px;
 }
 
 .mainSectionContainer{
   margin: auto;
-  max-width: 55%;
-  /* border: 5px solid #FFFF00; */
-  padding: 0px;
+  max-width: 60%;
+  padding: 5px;
   text-align: center;
+  /* height: 100%;
+  overflow: scroll; */
+}
+
+.mainImage {
+  max-width: 400px;
+  max-height: 320px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mainParagraph {
+  padding-top: 10px;
 }
 
 /* Footer Styling */
 footer {
-  position: absolute;
-  left: 0;
+  position: fixed;
+  right: 0;
   bottom: 0;
-  width: 100%;
+  left: 0;
   text-align: center;
-  margin-bottom: 20px;
   font-size: 1.5rem;
 }
+
