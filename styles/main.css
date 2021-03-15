@@ -1,40 +1,76 @@
 * {
-    box-sizing: border-box;
-    background-color: rgb(235, 235, 235);
-  }
+  box-sizing: border-box;
+  background-color: rgb(235, 235, 235);
+}
 
 html {
 /* 1rem = 10px */
-font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-font-size: 1.6rem;
+  font-size: 2rem;
 }
 
-  /* Navigation Bar Styling */
+/* Navigation Bar Styling */
 .navigation {
-    padding-top: 25px;
-    padding-bottom: 10px;
-    text-align: center;
+  /* padding-top: 25px; */
+  padding-bottom: 40px;
 }
 
 .navBar {
-    list-style: none;
+  list-style: none;
+  padding: 0;
 }
 .navList {
-
-    display: inline-block;
-    padding-left: 60px;
+  display: inline-block;
+  float: left;
 }
 
 .navList a {
-    text-decoration: none;
-    color:#109C7B;
-    font-family: 'Pacifico', cursive;
-    font-size: 3.5rem;
+  text-decoration: none;
+  color:#109C7B;
+  font-family: 'Pacifico', cursive;
+  font-size: 3rem;
+  padding: 20px;
 }
 
 .navList a:hover, a:active {
-    color:#e1a123;
+  color:#e1a123;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make each nav item stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .navBar a {
+    float: none;
+    display: block;
+  }
+}
+
+/* Main H1 Header */
+.mainHeader {
+  text-align: center; 
+  color: black;
+  font-family: Raleway;
+  font-size: 5rem;
+  padding: 40px 0px 20px;
+}
+
+.mainSectionContainer{
+  margin: auto;
+  max-width: 55%;
+  /* border: 5px solid #FFFF00; */
+  padding: 0px;
+  text-align: center;
+}
+
+/* Footer Styling */
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
 }
