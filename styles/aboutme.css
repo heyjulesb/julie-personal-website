@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    background-color: rgb(235, 235, 235);
+  }
+  
+  html {
+  /* 1rem = 10px */
+    font-size: 62.5%;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    font-family: 'Raleway';
+  }
+  
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  header {
+    display: flex;
+  }
+  
+  /* Navigation Bar Styling top right bottom left*/
+  .navigation {
+    padding: 0px 0px 10px 15px;
+  }
+  
+  .navBar {
+    padding-left: 0px;
+  }
+  
+  .navList {
+    list-style: none;
+    float: left;
+    padding-right: 25px;
+  }
+  
+  .navList a {
+    text-decoration: none;
+    color:#109C7B;
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+  }
+  
+  .navList a:hover, a:active {
+    color:#e1a123;
+  }
+  
+  main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    outline: solid 1px black;
+    align-items: center;
+    justify-content: center;
+  }
+  /* Main H1 Header */
+  .mainHeader {
+    text-align: center; 
+    color: black;
+    font-family: 'Raleway';
+    font-size: 5.7rem;
+    /* padding: 40px 0px 15px; */
+  }
+  
+  .box1 {
+    border: 1px black solid;
+    margin: 40px 0px 20px;
+    padding: 5px;
+  }
+  
+  .box2 {
+    border: 1px black solid;
+    margin-bottom: 20px;
+    padding: 5px;
+  }
+  
+  .box3 {
+    width: 60%;
+    border: 1px black solid;
+    margin: 5px;
+    padding: 5px;
+    overflow: scroll;
+  }
+  
+  
+  .mainImage {
+    max-width: 400px;
+    max-height: 320px;
+    border-radius: 50%;
+    justify-content: center;
+  }
+  
+  .mainParagraph {
+    margin: 0;
+    padding: 5px;
+  }
+  
+  /* Footer Styling */
+  footer {
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    header .navBar{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      float: none;
+      margin: 0;
+      padding: 0;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 700px wide, make each nav item stack on top of each other instead of next to each other */
+  /* @media screen and (max-width: 700px) {
+    .navBar a {
+      float: none;
+      display: block;
+    }
+  } */
