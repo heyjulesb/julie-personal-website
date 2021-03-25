@@ -69,7 +69,7 @@ header {
   /* padding: 40px 0px 15px; */
 }
 
-.box1 {
+.mainHeaderBox {
   border: 1px black solid;
   margin: 40px 0px 20px;
   padding: 5px;
@@ -137,12 +137,6 @@ footer {
   outline: solid 1px black;
   align-items: center;
   justify-content: space-evenly;
-}
-
-.aboutMeHeader {
-  border: 1px black solid;
-  margin: 40px 0px 20px;
-  padding: 5px;
 }
 
 .aboutMeBox1 {
