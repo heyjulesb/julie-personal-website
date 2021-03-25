@@ -52,7 +52,7 @@ header {
   color:#e1a123;
 }
 
-main {
+.homePageMain {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -86,7 +86,6 @@ main {
   border: 1px black solid;
   margin: 5px;
   padding: 5px;
-  overflow: scroll;
 }
 
 
@@ -128,3 +127,34 @@ footer {
     display: block;
   }
 } */
+
+/* About Me Page Styling */
+
+.aboutMeMain {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  outline: solid 1px black;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.aboutMeHeader {
+  border: 1px black solid;
+  margin: 40px 0px 20px;
+  padding: 5px;
+}
+
+.aboutMeBox1 {
+  width: 45%;
+  border: 1px black solid;
+  margin: 15px;
+  padding: 5px;
+}
+
+.aboutMeBox2{
+  width: 45%;
+  border: 1px black solid;
+  margin: 15px;
+  padding: 5px;
+}
