@@ -43,13 +43,13 @@ header {
 
 .navList a {
   text-decoration: none;
-  color:#109C7B;
+  color:#e1a123;
   font-family: 'Pacifico', cursive;
   font-size: 3rem;
 }
 
 .navList a:hover, a:active {
-  color:#e1a123;
+  color:#6c8b7c;
 }
 
 .homePageMain {
@@ -63,7 +63,7 @@ header {
 /* Main H1 Header */
 .mainHeader {
   text-align: center; 
-  color: black;
+  color: #6c8b7c;
   font-family: 'Raleway';
   font-size: 5.7rem;
   /* padding: 40px 0px 15px; */
@@ -106,6 +106,7 @@ footer {
   padding: 10px;
   text-align: center;
   font-size: 1.5rem;
+  color: #6c8b7c;
 }
 
 @media only screen and (max-width: 600px) {
