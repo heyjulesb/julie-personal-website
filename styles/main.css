@@ -59,7 +59,7 @@ header {
   flex-direction: row;
   outline: solid 1px blue;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 /* Main H1 Header */
 .mainHeader {
@@ -96,7 +96,7 @@ header {
 .box3 {
   width: 65%;
   border: 1px black solid;
-  margin: 1rem;
+  margin: 2rem;
   padding: 0.5rem;
 }
 
